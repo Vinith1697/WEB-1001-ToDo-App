@@ -1,0 +1,45 @@
+﻿<Properties StartupConfiguration="{DA22DF61-B829-4B15-906E-F3945090579C}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="To-Do-App/Pages/Home.cshtml.cs">
+    <Files>
+      <File FileName="To-Do-App/Model/ToDoModel.cs" Line="2" Column="28" />
+      <File FileName="To-Do-App/Services/ToDoService.cs" Line="67" Column="43" />
+      <File FileName="To-Do-App/Pages/Home.cshtml" Line="33" Column="10" />
+      <File FileName="To-Do-App/Startup.cs" Line="29" Column="67" />
+      <File FileName="To-Do-App/Pages/Home.cshtml.cs" Line="29" Column="47" />
+      <File FileName="To-Do-App/Pages/AddToDo.cshtml.cs" Line="51" Column="73" />
+      <File FileName="To-Do-App/Pages/AddToDo.cshtml" Line="18" Column="18" />
+      <File FileName="To-Do-App/Program.cs" Line="22" Column="18" />
+      <File FileName="To-Do-App/Properties/launchSettings.json" Line="22" Column="48" />
+      <File FileName="To-Do-App/Pages/Shared/_Layout.cshtml" Line="14" Column="75" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="To-Do-App" expanded="True">
+            <Node name="To-Do-App" expanded="True">
+              <Node name="Model" expanded="True" />
+              <Node name="Pages" expanded="True">
+                <Node name="Shared" expanded="True" />
+                <Node name="AddToDo.cshtml" expanded="True" />
+                <Node name="Home.cshtml" expanded="True">
+                  <Node name="Home.cshtml.cs" selected="True" />
+                </Node>
+              </Node>
+              <Node name="Properties" expanded="True" />
+              <Node name="Services" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.To-Do-App PreferredExecutionTarget="/Applications/Brave Browser.app" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/kunwar/Documents/WEB-1001/to-do-app/To-Do-App/To-Do-App/Pages/AddToDo.cshtml.cs" relfile="To-Do-App/Pages/AddToDo.cshtml.cs" line="54" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

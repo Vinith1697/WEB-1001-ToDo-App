@@ -1,0 +1,29 @@
+@page "{id:int?}"
+@model To_Do_App.Pages.AddToDoModel
+@{ ViewData["Title"] = "Add To Do"; }
+<head>
+    <link rel="stylesheet" href="~/css/site.css" />
+</head>
+<h1 style="color:blue;text-align:center;font-family: Tahoma, sans-serif;">Task</h1>
+
+<body>
+    <form method="post">
+        <fieldset>
+            <div>
+                <label for="Task">Task:</label>
+                <input type="text" name="Task" value="@Html.DisplayFor(modelItem => Model.Task)" />
+            </div>
+            <div>
+                <label for="Descrip">Description:</label>
+                <input type="text" name="Descrip" value="@Html.DisplayFor(modelItem => Model.Descrip)" />
+            </div>
+            <div>
+                
+                <td><input class="submitTaskButton" type="submit" value="Submit" asp-page-handler="Submit Task"/></td>
+            </div>
+        </fieldset>
+    </form>
+</body>
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
